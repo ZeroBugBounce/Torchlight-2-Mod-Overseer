@@ -92,13 +92,19 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Graphics\stone_bg.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{92EFAAFC-6D05-4DBF-97BC-9F12E038EBFB}</Project>
       <Name>Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tl2modBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Skull01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Skull02.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
