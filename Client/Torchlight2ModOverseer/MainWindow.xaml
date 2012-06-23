@@ -8,8 +8,8 @@
 		<ImageBrush ImageSource="/Torchlight2ModOverseer;component/Images/tl2modBackground.png" />
 	</Window.Background>
 	<Grid>
-		<Image Name="OffSkull" Source="/Torchlight2ModOverseer;component/Images/Skull01.png" Width="34" Height="34" Margin="644,-9,0,336" Opacity="1"></Image>		
-		<Image Name="OnSkull" Source="/Torchlight2ModOverseer;component/Images/Skull02.png" Width="34" Height="34" Margin="644,-9,0,336" MouseEnter="OnSkull_MouseEnter" MouseLeave="OnSkull_MouseLeave" Opacity="0" MouseLeftButtonDown="OnSkull_MouseLeftButtonDown">
+		<Image Name="OffSkull" Source="/Torchlight2ModOverseer;component/Images/Skull01.png" Width="17" Height="17" Margin="644,-9,0,336" Opacity="1"></Image>		
+		<Image Name="OnSkull" Source="/Torchlight2ModOverseer;component/Images/Skull02.png" Width="17" Height="17" Margin="644,-9,0,336" MouseEnter="OnSkull_MouseEnter" MouseLeave="OnSkull_MouseLeave" Opacity="0" MouseLeftButtonDown="OnSkull_MouseLeftButtonDown">
 			<Image.ToolTip>Exit</Image.ToolTip>			
 		</Image>
 	</Grid>
