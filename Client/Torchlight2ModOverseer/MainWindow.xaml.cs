@@ -72,5 +72,10 @@ namespace ZeroBugBounce.Torchlight2.ModOverseer.Client
 		{
 			Application.Current.Shutdown();
 		}
+
+		private void Window_Loaded(object sender, RoutedEventArgs e)
+		{
+			MainPanel.Content = new ModsView();
+		}
 	}
 }

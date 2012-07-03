@@ -3,15 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" ResizeMode="NoResize" SnapsToDevicePixels="True" WindowStyle="None" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
 		MaxWidth="700" MaxHeight="400" PreviewMouseDown="Window_PreviewMouseDown" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="400" Width="700"
-		MouseDown="Window_MouseDown">
+		MouseDown="Window_MouseDown" Loaded="Window_Loaded">
 	<Window.Background>
 		<ImageBrush ImageSource="/Torchlight2ModOverseer;component/Images/tl2modBackground.png" />
 	</Window.Background>
 	<Grid>
-		<Image Name="OffSkull" Source="/Torchlight2ModOverseer;component/Images/Skull01.png" Width="17" Height="17" Margin="644,-9,0,336" Opacity="1"></Image>		
-		<Image Name="OnSkull" Source="/Torchlight2ModOverseer;component/Images/Skull02.png" Width="17" Height="17" Margin="644,-9,0,336" MouseEnter="OnSkull_MouseEnter" MouseLeave="OnSkull_MouseLeave" Opacity="0" MouseLeftButtonDown="OnSkull_MouseLeftButtonDown">
+		<Image Name="OffSkull" Source="/Torchlight2ModOverseer;component/Images/Skull01.png" Width="25" Height="25" Margin="658,-18,0,336" Opacity="1"></Image>		
+		<Image Name="OnSkull" Source="/Torchlight2ModOverseer;component/Images/Skull02.png" Width="25" Height="25" Margin="658,-18,0,336" MouseEnter="OnSkull_MouseEnter" MouseLeave="OnSkull_MouseLeave" Opacity="0" MouseLeftButtonDown="OnSkull_MouseLeftButtonDown">
 			<Image.ToolTip>Exit</Image.ToolTip>			
-		</Image>
+		</Image>        
+        <Grid x:Name="ContentGrid" Margin="9, 40, 9, 9">        
+            <ContentControl x:Name="MainPanel" Foreground="White" FontWeight="Bold" Background="#FF521818">                
+            </ContentControl>
+        </Grid>
 	</Grid>
 	
 </Window>
